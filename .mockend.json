@@ -2,9 +2,10 @@
     "Organization": {
         "id": "int",
         "name": "string",
-        "customer": {
-            "id": "int",
-            "name": "string"
-        }
+        "customers": "Customer[]"
+    },
+    "Customer": {
+        "id": "int",
+        "name": "string"
     }
 }
